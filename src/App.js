@@ -1,19 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import picsrc from "./imageInSrc.jpg";
+// import './FULLNAME.js';
+// import './ProfilePHOTO.js';
+// import './ADDRESS.js';
+// import './App.css';
+
+import ADDRESS from "./components/PROFILE/ADDRESS";
+import FullName from "./components/PROFILE/FULLNAME";
+import ProfilePHOTO from "./components/PROFILE/ProfilePHOTO";
 
 function App() {
   return (
-  <div className="App">
-    <div style={{border:"solid 1px black", maxWidth:'100vw'}}>
-      <h1 class="last">Karray</h1>
-      <img src={ picsrc } />
-      <img src="/mageInPublic.jpg" />
-      <video width="320" height="240" controls>
-        <source src={"https://www.youtube.com/watch?v=InMcm5gqHUs"} type="video/mp4" />
-      </video>
+    <div>
+      <FullName />
+      <ProfilePHOTO />
+      <ADDRESS />
     </div>
-  </div>
+
   );
 }
 export default App;
