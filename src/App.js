@@ -6,7 +6,7 @@
 import ADDRESS from "./components/PROFILE/ADDRESS";
 import FullName from "./components/PROFILE/FULLNAME";
 import ProfilePHOTO from "./components/PROFILE/ProfilePHOTO";
-
+import "./App.css";
 function App() {
   return (
     <div>

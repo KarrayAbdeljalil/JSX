@@ -1,5 +1,11 @@
+.Pics{
+  width: 20%;
+  border-radius: 20%;
+}
 .titlename{
-  color: blue;
+  color: aqua;
+  text-align: center;
+  font-style: italic;
 }
 .App {
   text-align: center;

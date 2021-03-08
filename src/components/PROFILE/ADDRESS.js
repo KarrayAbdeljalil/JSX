@@ -3,7 +3,7 @@ import React from 'react'
 const Address = () => {
   return (
     <div>
-      <h2>MY ADDRESS:</h2>
+      <h3>MY ADDRESS:</h3>
       <p>Centre Ville Sfax</p>
     </div>
   )

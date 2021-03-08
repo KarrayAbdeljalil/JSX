@@ -1,10 +1,11 @@
 import React from 'react'
 
 const ProfilePHOTO = () => {
+const styleObject = { textAlign: 'center' }
   return (
     <div>
-      <h2>MY PROFILE PICTURE</h2>
-      <img src="./PROF.jpg" alt=""/>
+      <h3>MY PROFILE PICTURE</h3>
+      <img style ={styleObject} className = "Pics" src="./PROF.jpg" alt=""/>
     </div>
   )
 }
